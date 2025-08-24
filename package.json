@@ -1,0 +1,15 @@
+{
+  "name": "mypractice",
+  "version": "1.0.0",
+  "main": "index.html",
+  "scripts": {
+    "taildev": "@tailwindcss/cli -i ./src/styles/input.css -o ./src/styles/output.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
