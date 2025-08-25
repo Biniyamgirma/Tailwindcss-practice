@@ -1,6 +1,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 @import "tailwindcss";
 
+@theme {
+    --text-10xl:10rem;
+    --color-new-500:#46bba5;
+    --color-primary :#08CB00;
+
+    --color-secondary-100:#568F87;
+    --color-secondary-200:#253900;
+    --color-secondary-600:#00809D;
+}
 .font-Boldonse {
     font-family: 'Boldonse';
+}
+
+.newcolor {
+    background-color: var(--color-new-500);
+
 }
