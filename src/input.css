@@ -1,1 +1,6 @@
+ @import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 @import "tailwindcss";
+
+.font-Boldonse {
+    font-family: 'Boldonse';
+}
